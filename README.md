@@ -16,7 +16,7 @@ checking the time each cycle we gather some mushhhhhhhhhhhhh.
 
 ![Timing](/funsa_times.png)
 
-A routine was written XOR 32 processor times into a 32-bit register with a different rotation each time.
+A routine was written that XOR's 32 processor times into a 32-bit register with a different rotation each time.
 
 ```c
 uint32_t funsa(void){
