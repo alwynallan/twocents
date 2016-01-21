@@ -20,7 +20,7 @@ A routine was written that XOR's 32 processor times into a 32-bit register with 
 
 ```c
 uint32_t twocents(void){
-  uint32_t res=0L;
+  uint32_t res=0U;
   
   for(int i=0; i<32; i++){
     digitalWrite(D7, HIGH);
