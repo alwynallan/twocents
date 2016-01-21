@@ -9,7 +9,7 @@ uint32_t rotateRight(uint32_t value, int count){
 }
 
 uint32_t twocents(void){
-  uint32_t res=0L;
+  uint32_t res=0L; // could make static
   
   for(int i=0; i<32; i++){
     digitalWrite(D7, HIGH);
