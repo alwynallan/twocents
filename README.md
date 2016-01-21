@@ -22,7 +22,7 @@ A routine was written XOR 32 processor times into a 32-bit register with a diffe
 uint32_t funsa(void){
   uint32_t res=0L;
   
-  for(int i=0; i<MAX_TIMES; i++){
+  for(int i=0; i<32; i++){
     digitalWrite(D7, HIGH);
     while(digitalRead(D8) != HIGH);
     digitalWrite(D7, LOW);
