@@ -33,7 +33,7 @@ uint32_t twocents(void){
 }
 ```
 
-The routing runs in about 700us 6/7 of the time and twice that 1/7 of the time. On average 40kbps can be expected. A sample of the resulting data looks full-entropy to me.
+The routine runs in about 700us 6/7 of the time and twice that 1/7 of the time. On average 40kbps can be expected. A sample of the resulting data looks full-entropy to me.
 
 ![Bits](/twocents.bin.png)
 
