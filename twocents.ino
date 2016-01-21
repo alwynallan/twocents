@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <pins_arduino.h>
 
-#define MAX_TIMES 32
-uint32_t times[MAX_TIMES];
+#define MAX_TIMES 1000
+uint8_t times[MAX_TIMES];
 
 uint32_t rotateRight(uint32_t value, int count){
   return (value >> count) | (value << (32 - count));
@@ -29,11 +29,12 @@ void setup() {
   pinMode(D7, OUTPUT);
 
   for(int i=0; i<MAX_TIMES; i++){
+    unsigned loops=0;
     digitalWrite(D7, HIGH);
-    while(digitalRead(D8) != HIGH);
+    while(digitalRead(D8) != HIGH) loops++;
     digitalWrite(D7, LOW);
-    while(digitalRead(D8) != LOW);
-    times[i] = ESP.getCycleCount();
+    while(digitalRead(D8) != LOW) loops++;
+    times[i] = loops<256?loops:256;
   }
 
   for(int i=0; i<MAX_TIMES; i++){
@@ -56,4 +57,5 @@ void loop() {
     //Serial.print(t);
   }
   Serial.println();
+  while(1) yield();
 }
