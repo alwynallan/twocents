@@ -11,7 +11,7 @@ uint32_t rotateRight(uint32_t value, int count){
 uint32_t funsa(void){
   uint32_t res=0L;
   
-  for(int i=0; i<MAX_TIMES; i++){
+  for(int i=0; i<32; i++){
     digitalWrite(D7, HIGH);
     while(digitalRead(D8) != HIGH);
     digitalWrite(D7, LOW);
