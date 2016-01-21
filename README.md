@@ -1,5 +1,5 @@
 # twocents
-$.02 Hardware RNG for IoT
+$.02 Hardware RNG for IoT. RNGoT?
 
 Inspired by discussions on http://www.metzdowd.com/mailman/listinfo/cryptography and having a NodeMCU clone handy I threw together a capacitor and resistor on two free pins.
 
