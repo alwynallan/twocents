@@ -8,7 +8,7 @@ uint32_t rotateRight(uint32_t value, int count){
   return (value >> count) | (value << (32 - count));
 }
 
-uint32_t funsa(void){
+uint32_t twocents(void){
   uint32_t res=0L;
   
   for(int i=0; i<32; i++){
@@ -47,7 +47,7 @@ void loop() {
 
   for(int col=0; col<8; col++){
     t=ESP.getCycleCount();
-    r=funsa();
+    r=twocents();
     t=(ESP.getCycleCount()-t)/80; // microseconds
     rs = String(r,HEX);
     while(rs.length()<8) rs = '0' + rs;
