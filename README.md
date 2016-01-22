@@ -37,4 +37,5 @@ The routine runs in about 700us 6/7 of the time and twice that 1/7 of the time. 
 
 Comments are welcome as "issues" above. Remember this is a $.02 RNG for a $2 computer. The type of data it's intended to protect
 is over-the-air software updates for a thermostat, when nefarious hackers want to create a slave army of bitcoin miners. Also,
-we can buy a capacitor and a resistor for under $.01 on Aliexpress in 1000 quantities, with free shipping!
+we can buy a capacitor and a resistor for under $.01 on AliExpress.com in 1000 quantities, with free shipping! It's the same
+place I got the [clone](http://www.aliexpress.com/item/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/32339203041.html?spm=2114.01010208.3.1.UiYGJk&ws_ab_test=searchweb201556_1,searchweb201644_4_10014_10001_10002_10005_301_10006_10003_10004_62,searchweb201560_5,searchweb1451318400_6151,searchweb1451318411_6450&btsid=21fbf57c-19aa-467e-b179-a6d97a313032).
