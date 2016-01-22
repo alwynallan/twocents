@@ -35,5 +35,6 @@ The routine runs in about 700us 6/7 of the time and twice that 1/7 of the time. 
 
 ![Bits](/twocents.bin.png)
 
-Comments are welcome as "Issues" above. Remember this is a $.02 RNG for a $2 computer. The type of data security it's intended for is protecting
-over-the-air software updates for a thermostat from nefarious hackers who are looking for an army of bitcoin miners.
+Comments are welcome as "issues" above. Remember this is a $.02 RNG for a $2 computer. The type of data it's intended to protect
+is over-the-air software updates for a thermostat, when nefarious hackers want to create a slave army of bitcoin miners. Also,
+we can buy a capacitor and a resistor for under $.01 on Aliexpress in 1000 quantities, with free shipping!
