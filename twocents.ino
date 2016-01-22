@@ -35,8 +35,7 @@ uint32_t rotateRight(uint32_t value, int count){
 }
 
 uint32_t twocents(void){
-  static uint32_t res=0U;
-  
+  static uint32_t res=0U; // only initilaizes once
   for(register int i=0; i<32; i++){
     digitalWrite(D7, HIGH);
     while(digitalRead(D8) != HIGH);
