@@ -11,7 +11,7 @@ to charge and discharge should contain some entropy.
 
 ![Schematic](/twocents_schematic.png)
 
-It appears that the circuit charges slowly with a hard-to-predict number of test loops, but discharges quickly in 1 or 2 test loops loops. That is because the storage of the result takes place after the discharge, using some time, and there is some overshoot on the low side. A delay can be introduced after the charging to even things out, but it doesn't increase entropy rate. By checking the time each cycle we gather the entropy.
+It appears that the circuit charges slowly with a hard-to-predict number of test loops, but discharges quickly in 1 or 2 test loops. That is because the storage of the result happens after the discharge, using some time, and there is some overshoot on the low side. A delay can be introduced after the charging to even things out, but it doesn't increase entropy rate. By checking the time each cycle we gather the entropy.
 
 ![Timing](/twocents_times.png)
 
