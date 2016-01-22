@@ -15,7 +15,7 @@ It appears that the circuit charges slowly with a hard-to-predict number of test
 
 ![Timing](/twocents_times.png)
 
-There's no need to subtract the previous time to get the loop time, because the entopy is in the time easurement regardless. A routine was written that XOR's 32 processor times into a 32-bit register with a different rotation each time. The **res** variable is static so it holds the last value between calls, preserving entropy if we're not adding enough. More than 32 loops would be safer, but testing estimates that there are ~4 bits/loop as it is.
+There's no need to subtract the previous time to get the loop time, because the entopy is in the time measurement regardless. A routine was written that XOR's 32 processor times into a 32-bit register with a different rotation each time. The **res** variable is static so it holds the last value between calls, preserving entropy if we're not adding enough. More than 32 loops would be safer, but testing estimates that there are ~4 bits/loop as it is.
 
 ```c
 uint32_t twocents(void){
